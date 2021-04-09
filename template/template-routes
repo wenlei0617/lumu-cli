@@ -1,0 +1,11 @@
+import React from 'react';
+import LazyHOC from "../../components/lazy-component";
+import { RouteItem } from "../../config/routes";
+
+const ${template}Routes: RouteItem = {
+  breadcrumb: '',
+  path: '/${template}',
+  children: []
+}
+
+export default ${template}Routes;

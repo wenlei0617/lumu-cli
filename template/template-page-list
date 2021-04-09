@@ -1,0 +1,18 @@
+import React, { useRef } from 'react';
+import LumuTable, { LumuTableRef } from '../../../components/table/table';
+
+const ${template}: React.FC = () => {
+  const table = useRef<LumuTableRef>(null);
+
+  return (
+    <LumuTable<any>
+      refs={table}
+      api=""
+      fetch={}
+      rowKey={data => data.id}
+      columns={[]}>
+    </LumuTable>
+  )
+}
+
+export default ${template};
