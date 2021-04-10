@@ -1,6 +1,6 @@
 {
   "name": "@lumu/cli",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "lumu脚手架",
   "author": "wenlei0617",
   "main": "index.js",
